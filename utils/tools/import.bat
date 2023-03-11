@@ -1,0 +1,1 @@
+mongoexport --collection=users --db=server --out=users.txt

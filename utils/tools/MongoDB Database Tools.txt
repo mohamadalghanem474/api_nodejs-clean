@@ -1,0 +1,14 @@
+//export collection to json
+mongoexport --collection=users --db=server --out=users.json
+
+//import collection from json 
+mongoimport --db=server users.json
+
+//export all data from database to folder dump/ bson files
+mongodump
+
+//import all data frome dump/ folfer
+mongorestore  dump/
+
+//convert bson to json 
+bsondump --outFile=usersNew.json users.bson

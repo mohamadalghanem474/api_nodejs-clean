@@ -1,0 +1,14 @@
+{
+  "_id": { "$oid": "63e29d933d40df417ee0fd4f" },
+  "name": "abooghanem",
+  "email": "abooghanem474@gmail.com",
+  "password": "$2a$12$57xIt63pg9M48QH1zoEguutp7rk9igh3OFJSN.UgzMwLQRq1UouiW",
+  "role": "admin",
+  "active": true,
+  "wishlist": [],
+  "addresses": [],
+  "createdAt": { "$date": "2023-02-07T18:50:59.767Z" },
+  "updatedAt": { "$date": "2023-02-07T19:09:22.088Z" },
+  "__v": 0,
+  "phone": "71793188"
+}
